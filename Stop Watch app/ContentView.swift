@@ -22,7 +22,17 @@ struct ContentView: View {
                     .foregroundColor(.white)
                 
                 // Create circular button
-CircleButtonView()
+                HStack {
+                    CircleButtonView(buttonColor: .gray,
+                                     label: "Reset",
+                                     labelColor: .white)
+                    
+                    Spacer()
+                    
+                    CircleButtonView(buttonColor: .brown,
+                                     label: "Start",
+                                     labelColor: .green)
+                }
             }
             .padding()
         }
