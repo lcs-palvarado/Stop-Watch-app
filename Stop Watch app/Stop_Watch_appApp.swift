@@ -12,6 +12,11 @@ struct Stop_Watch_appApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
+            TabView{
+                
+                
+                
+            }
         }
     }
 }
