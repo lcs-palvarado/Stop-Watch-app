@@ -36,7 +36,7 @@ struct CircleButtonView: View {
                 .frame(width: 89)
             
             // Fourth layer
-            Text("Reset")
+            Text(label)
                 .foregroundColor(labelColor)
                 .font(.title2)
         }

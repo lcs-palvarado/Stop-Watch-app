@@ -29,7 +29,7 @@ struct ContentView: View {
                     
                     Spacer()
                     
-                    CircleButtonView(buttonColor: .brown,
+                    CircleButtonView(buttonColor: Color("Dark Green"),
                                      label: "Start",
                                      labelColor: .green)
                 }
