@@ -27,7 +27,7 @@ struct CircleButtonView: View {
             
             // Second Layer
             Circle()
-                .foregroundColor(buttonColor)
+                .foregroundColor(.black)
                 .frame(width: 93)
             
             // Third layer
