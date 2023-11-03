@@ -18,6 +18,7 @@ struct ContentView: View {
             // Second layer (rest of interface)
             VStack {
                 
+               Spacer()
                 Spacer()
                 
                 Text("00:09.96")
@@ -39,14 +40,49 @@ struct ContentView: View {
                 
                 //List
                 List{
-                    Text("1")
-                    Text("2")
-                    Text("3")
-                    Text("4")
-                    Text("5")
+                    
+                    Group{
+                        HStack{
+                            Text("Lap 5")
+                            Spacer()
+                            Text("00:00.98")
+                        }
+                        
+                        HStack{
+                            Text("Lap 4")
+                                .foregroundColor(.red)
+                            Spacer()
+                            Text("00:04.08")
+                                .foregroundColor(.red)
+                        }
+                        
+                        HStack{
+                            Text("Lap 3")
+                                .foregroundColor(.green)
+                            Spacer()
+                            Text("00:00.96")
+                                .foregroundColor(.green)
+                        }
+                        HStack{
+                            Text("Lap 2")
+                            Spacer()
+                            Text("00:02.76")
+                        }
+                        HStack{
+                            Text("Lap 1")
+                            Spacer()
+                            Text("00:01.16")
+                        }
+                    }
+                    //Remove inset from list items
+                    .listRowInsets(EdgeInsets(top: 0, leading: 0, bottom: 0, trailing: 0))
+                    .listRowSeparatorTint(.gray)
+                    
                 }
                 //Set the amount of vertical height we want this ist to take up
-                .frame(height: 300)
+                .frame(height: 400)
+                //Adjust list style to match design
+                .listStyle(.plain)
                 
             }
             .padding()
