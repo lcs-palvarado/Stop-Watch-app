@@ -11,6 +11,7 @@
 		473ECC762AF1C43B0065587D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 473ECC752AF1C43B0065587D /* ContentView.swift */; };
 		473ECC782AF1C43F0065587D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 473ECC772AF1C43F0065587D /* Assets.xcassets */; };
 		473ECC7B2AF1C43F0065587D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 473ECC7A2AF1C43F0065587D /* Preview Assets.xcassets */; };
+		47EDB70F2AF6864F00A9A735 /* ListItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47EDB70E2AF6864F00A9A735 /* ListItemView.swift */; };
 		47FE76422AF1CD0C00F2D092 /* CircleButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47FE76412AF1CD0C00F2D092 /* CircleButtonView.swift */; };
 /* End PBXBuildFile section */
 
@@ -20,6 +21,7 @@
 		473ECC752AF1C43B0065587D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		473ECC772AF1C43F0065587D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		473ECC7A2AF1C43F0065587D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		47EDB70E2AF6864F00A9A735 /* ListItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListItemView.swift; sourceTree = "<group>"; };
 		47FE76412AF1CD0C00F2D092 /* CircleButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleButtonView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -58,6 +60,7 @@
 				47FE76412AF1CD0C00F2D092 /* CircleButtonView.swift */,
 				473ECC772AF1C43F0065587D /* Assets.xcassets */,
 				473ECC792AF1C43F0065587D /* Preview Content */,
+				47EDB70E2AF6864F00A9A735 /* ListItemView.swift */,
 			);
 			path = "Stop Watch app";
 			sourceTree = "<group>";
@@ -143,6 +146,7 @@
 				47FE76422AF1CD0C00F2D092 /* CircleButtonView.swift in Sources */,
 				473ECC762AF1C43B0065587D /* ContentView.swift in Sources */,
 				473ECC742AF1C43B0065587D /* Stop_Watch_appApp.swift in Sources */,
+				47EDB70F2AF6864F00A9A735 /* ListItemView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
